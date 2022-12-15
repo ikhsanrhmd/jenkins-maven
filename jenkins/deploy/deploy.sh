@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo jenkins-maven > /tmp/.auth
-echo $BUILD_TAG >> /tmp/.auth
+echo 10 >> /tmp/.auth
 echo $PASS >> /tmp/.auth
 
 
