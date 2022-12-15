@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app: 
+    image: "jenkins-maven:$BUILD_TAG"
+    build:
+      context: .
+      dockerfile: Dockerfile-java
+    
+   
